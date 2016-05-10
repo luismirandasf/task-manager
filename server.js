@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 var jwt = require('jsonwebtoken'); // used to create, sign, and verify tokens
 var cryp = require('crypto-js');
 
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser'); //HOLAAAAA
 app.use( bodyParser.json() );
 app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: false
