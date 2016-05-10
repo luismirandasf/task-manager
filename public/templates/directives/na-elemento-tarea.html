@@ -1,0 +1,21 @@
+<div class='card col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0' title="{{title}}">
+    <h3>{{titulo}}</h3>
+    <p>{{descripcion}}</p>
+    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Info
+    <p class="hidden informacion" style="padding-bottom: 10%;">Contenido: {{fecha}}</p>
+  	<div ng-show="!caducada">
+  		<button type="Submit" class="completedTaskBtn btn btn-success btn-xs" ng-click="cambiarCaducidad()" style="position: absolute;bottom: 4%;right: 15%;">Completada</button>
+  	</div>
+    <button type="Submit" class="removeTaskBtn btn btn-danger btn-xs" ng-click="eliminarNota()" style="position: absolute;bottom: 4%;right: 2%;">Eliminar</button>
+    
+</div> 
+
+<!-- <div class="card" title="{{title}}">
+  <h2>{{cabecera}}</h2>
+  <h2 class="h3">{{title}}</h2>
+  <h3>{{description}}</h3>
+  <p class="hidden">Contenido: {{content}}</p>
+  <img ng-src='{{image}}' ng-if='image'>
+</div>
+ -->
+

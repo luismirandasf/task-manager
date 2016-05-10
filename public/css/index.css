@@ -1,0 +1,39 @@
+/* Footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+  background-color: #d4d3d1;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #595959;
+  color: #fff;
+}
+.footer-page{
+  background-color: #595959;
+}
+#remark {
+  color:  #ff6666;
+}
+
+#corners {
+    color: #000;
+    background-color: #c6fcc0;
+    border-radius: 10px;
+    border: 3px solid #000;
+       
+}
+#margins{
+  margin-right: 5px;
+  margin-left: 1px;
+}
+

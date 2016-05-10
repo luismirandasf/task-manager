@@ -1,0 +1,22 @@
+
+<div class="container well" id="corners">
+  <h2>Añade una nota</h2>
+  <p ng-if="createController.errors"> {{notaNuevaCtrl.errors}} </p>
+  <form class="form" role="form" ng-submit="tareaNuevaCtrl.guardaNuevatarea()">
+    <div class="form-inline" role="form">
+      <div class="form-group">
+        <label class="form-label" for="title">Título:</label>
+        <input class="form-input form-control" name="title" ng-model="tareaNuevaCtrl.tarea.titulo" />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="title">Autor:</label>
+        <input class="form-input form-control" name="title" ng-model="notaNuevaCtrl.nota.user" />
+      </div>
+    </div>
+    <label class="form-label" for="description">Descripción</label>
+    <div class="form-group">
+      <textarea class="form-input form-control" name="description" ng-model="tareaNuevaCtrl.tarea.tarea" placeholder="Escribe la descripción"></textarea>
+    </div>
+    <button class="btn btn-danger" type="Submit">Crear Tarea</button>
+  </form>
+</div>
